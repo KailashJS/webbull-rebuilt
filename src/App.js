@@ -1,12 +1,14 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import GlobalStyle from "./globalStyles";
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <GlobalStyle />
       <Navbar />
       <Hero />
-    </div>
+    </>
   );
 }
 
